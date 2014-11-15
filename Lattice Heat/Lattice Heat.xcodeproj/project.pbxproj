@@ -1,0 +1,245 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		539D1D4D1A180F4E0064F8C7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 539D1D4C1A180F4E0064F8C7 /* main.cpp */; };
+		539D1D551A18103F0064F8C7 /* backend.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 539D1D531A18103F0064F8C7 /* backend.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		539D1D471A180F4E0064F8C7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		539D1D491A180F4E0064F8C7 /* Lattice Heat */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Lattice Heat"; sourceTree = BUILT_PRODUCTS_DIR; };
+		539D1D4C1A180F4E0064F8C7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		539D1D531A18103F0064F8C7 /* backend.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = backend.cpp; sourceTree = "<group>"; };
+		539D1D541A18103F0064F8C7 /* backend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = backend.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		539D1D461A180F4E0064F8C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		539D1D401A180F4E0064F8C7 = {
+			isa = PBXGroup;
+			children = (
+				539D1D4B1A180F4E0064F8C7 /* Lattice Heat */,
+				539D1D4A1A180F4E0064F8C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		539D1D4A1A180F4E0064F8C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				539D1D491A180F4E0064F8C7 /* Lattice Heat */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		539D1D4B1A180F4E0064F8C7 /* Lattice Heat */ = {
+			isa = PBXGroup;
+			children = (
+				539D1D4C1A180F4E0064F8C7 /* main.cpp */,
+				539D1D531A18103F0064F8C7 /* backend.cpp */,
+				539D1D541A18103F0064F8C7 /* backend.h */,
+			);
+			path = "Lattice Heat";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		539D1D481A180F4E0064F8C7 /* Lattice Heat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 539D1D501A180F4E0064F8C7 /* Build configuration list for PBXNativeTarget "Lattice Heat" */;
+			buildPhases = (
+				539D1D451A180F4E0064F8C7 /* Sources */,
+				539D1D461A180F4E0064F8C7 /* Frameworks */,
+				539D1D471A180F4E0064F8C7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lattice Heat";
+			productName = "Lattice Heat";
+			productReference = 539D1D491A180F4E0064F8C7 /* Lattice Heat */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		539D1D411A180F4E0064F8C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Alex Blaine";
+				TargetAttributes = {
+					539D1D481A180F4E0064F8C7 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 539D1D441A180F4E0064F8C7 /* Build configuration list for PBXProject "Lattice Heat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 539D1D401A180F4E0064F8C7;
+			productRefGroup = 539D1D4A1A180F4E0064F8C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				539D1D481A180F4E0064F8C7 /* Lattice Heat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		539D1D451A180F4E0064F8C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				539D1D551A18103F0064F8C7 /* backend.cpp in Sources */,
+				539D1D4D1A180F4E0064F8C7 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		539D1D4E1A180F4E0064F8C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		539D1D4F1A180F4E0064F8C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		539D1D511A180F4E0064F8C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		539D1D521A180F4E0064F8C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		539D1D441A180F4E0064F8C7 /* Build configuration list for PBXProject "Lattice Heat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				539D1D4E1A180F4E0064F8C7 /* Debug */,
+				539D1D4F1A180F4E0064F8C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		539D1D501A180F4E0064F8C7 /* Build configuration list for PBXNativeTarget "Lattice Heat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				539D1D511A180F4E0064F8C7 /* Debug */,
+				539D1D521A180F4E0064F8C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 539D1D411A180F4E0064F8C7 /* Project object */;
+}
