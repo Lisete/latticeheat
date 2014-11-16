@@ -28,6 +28,7 @@
 		539D1D4C1A180F4E0064F8C7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		539D1D531A18103F0064F8C7 /* backend.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = backend.cpp; sourceTree = "<group>"; };
 		539D1D541A18103F0064F8C7 /* backend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = backend.h; sourceTree = "<group>"; };
+		539D1D571A1822570064F8C7 /* arguments.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = arguments.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +61,7 @@
 		539D1D4B1A180F4E0064F8C7 /* Lattice Heat */ = {
 			isa = PBXGroup;
 			children = (
+				539D1D571A1822570064F8C7 /* arguments.txt */,
 				539D1D4C1A180F4E0064F8C7 /* main.cpp */,
 				539D1D531A18103F0064F8C7 /* backend.cpp */,
 				539D1D541A18103F0064F8C7 /* backend.h */,
@@ -238,6 +240,7 @@
 				539D1D521A180F4E0064F8C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

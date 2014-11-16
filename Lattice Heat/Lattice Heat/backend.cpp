@@ -9,9 +9,9 @@ double* createLattice(int size) {
 	return lattice;
 }
 
-void setBounds(double* lattice, double x0, double x1, int size) {
-	lattice[0] = x0;
-	lattice[size - 1] = x1;
+void setBounds(double* lattice, double t0, double t1, int size) {
+	lattice[0] = t0;
+	lattice[size - 1] = t1;
 }
 
 void update(double time, double dx, double dt, int size, double* lattice, double alpha) {
